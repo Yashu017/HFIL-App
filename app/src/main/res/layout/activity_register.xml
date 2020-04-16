@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="30dp">
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Name"
+    android:layout_marginTop="10dp"
+    android:id="@+id/UserName"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/UserName"
+        android:id="@+id/UserAge"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:layout_below="@id/UserAge"
+        android:layout_marginTop="10dp"
+        android:id="@+id/TextGender"
+        android:textSize="18sp"
+        android:layout_marginLeft="5dp"
+        />
+    <Spinner
+        android:layout_toRightOf="@id/TextGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/UserAge"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/GenderSpinner"
+        />
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Address"
+    android:layout_marginTop="10dp"
+    android:layout_below="@id/GenderSpinner"
+    android:id="@+id/UserAddress"/>
+
+
+</RelativeLayout>

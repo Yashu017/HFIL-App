@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "100413061168",
+    "firebase_url": "https://hfil-app-bc890.firebaseio.com",
+    "project_id": "hfil-app-bc890",
+    "storage_bucket": "hfil-app-bc890.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100413061168:android:452bf5d98cd36b155515f5",
+        "android_client_info": {
+          "package_name": "com.example.hfilapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "100413061168-vbpnuo5vc7va6cj3jbc7s53tl69u7cmh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hfilapp",
+            "certificate_hash": "53bb737e542095f8cc5edcf8e8655c4c1b519514"
+          }
+        },
+        {
+          "client_id": "100413061168-2piu2nf6khrgms50vmia6gh4s02h7kcm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBep7ctmsgKsv3p0AlUKmL74D-2OHopuW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "100413061168-2piu2nf6khrgms50vmia6gh4s02h7kcm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
